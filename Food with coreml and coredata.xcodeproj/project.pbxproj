@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F043EB0324839CB10088BB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0224839CB10088BB41 /* AppDelegate.swift */; };
+		F043EB0524839CB10088BB41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0424839CB10088BB41 /* SceneDelegate.swift */; };
+		F043EB0724839CB10088BB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0624839CB10088BB41 /* ViewController.swift */; };
+		F043EB0A24839CB10088BB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB0824839CB10088BB41 /* Main.storyboard */; };
+		F043EB0D24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0B24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld */; };
+		F043EB0F24839CB20088BB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F043EB0E24839CB20088BB41 /* Assets.xcassets */; };
+		F043EB1224839CB20088BB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */; };
+		F043EB1D24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB1C24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift */; };
+		F043EB2824839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB2724839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F043EB1924839CB20088BB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F043EAF724839CB10088BB41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F043EAFE24839CB10088BB41;
+			remoteInfo = "Food with coreml and coredata";
+		};
+		F043EB2424839CB30088BB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F043EAF724839CB10088BB41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F043EAFE24839CB10088BB41;
+			remoteInfo = "Food with coreml and coredata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F043EAFF24839CB10088BB41 /* Food with coreml and coredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food with coreml and coredata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F043EB0224839CB10088BB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F043EB0424839CB10088BB41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F043EB0624839CB10088BB41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F043EB0924839CB10088BB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F043EB0C24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_with_coreml_and_coredata.xcdatamodel; sourceTree = "<group>"; };
+		F043EB0E24839CB20088BB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F043EB1124839CB20088BB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F043EB1324839CB20088BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F043EB1824839CB20088BB41 /* Food with coreml and coredataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food with coreml and coredataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F043EB1C24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_with_coreml_and_coredataTests.swift; sourceTree = "<group>"; };
+		F043EB1E24839CB20088BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F043EB2324839CB30088BB41 /* Food with coreml and coredataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food with coreml and coredataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F043EB2724839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_with_coreml_and_coredataUITests.swift; sourceTree = "<group>"; };
+		F043EB2924839CB30088BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F043EAFC24839CB10088BB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EB1524839CB20088BB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EB2024839CB30088BB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F043EAF624839CB10088BB41 = {
+			isa = PBXGroup;
+			children = (
+				F043EB0124839CB10088BB41 /* Food with coreml and coredata */,
+				F043EB1B24839CB20088BB41 /* Food with coreml and coredataTests */,
+				F043EB2624839CB30088BB41 /* Food with coreml and coredataUITests */,
+				F043EB0024839CB10088BB41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F043EB0024839CB10088BB41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F043EAFF24839CB10088BB41 /* Food with coreml and coredata.app */,
+				F043EB1824839CB20088BB41 /* Food with coreml and coredataTests.xctest */,
+				F043EB2324839CB30088BB41 /* Food with coreml and coredataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F043EB0124839CB10088BB41 /* Food with coreml and coredata */ = {
+			isa = PBXGroup;
+			children = (
+				F043EB0224839CB10088BB41 /* AppDelegate.swift */,
+				F043EB0424839CB10088BB41 /* SceneDelegate.swift */,
+				F043EB0624839CB10088BB41 /* ViewController.swift */,
+				F043EB0824839CB10088BB41 /* Main.storyboard */,
+				F043EB0E24839CB20088BB41 /* Assets.xcassets */,
+				F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */,
+				F043EB1324839CB20088BB41 /* Info.plist */,
+				F043EB0B24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld */,
+			);
+			path = "Food with coreml and coredata";
+			sourceTree = "<group>";
+		};
+		F043EB1B24839CB20088BB41 /* Food with coreml and coredataTests */ = {
+			isa = PBXGroup;
+			children = (
+				F043EB1C24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift */,
+				F043EB1E24839CB20088BB41 /* Info.plist */,
+			);
+			path = "Food with coreml and coredataTests";
+			sourceTree = "<group>";
+		};
+		F043EB2624839CB30088BB41 /* Food with coreml and coredataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F043EB2724839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift */,
+				F043EB2924839CB30088BB41 /* Info.plist */,
+			);
+			path = "Food with coreml and coredataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F043EAFE24839CB10088BB41 /* Food with coreml and coredata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F043EB2C24839CB30088BB41 /* Build configuration list for PBXNativeTarget "Food with coreml and coredata" */;
+			buildPhases = (
+				F043EAFB24839CB10088BB41 /* Sources */,
+				F043EAFC24839CB10088BB41 /* Frameworks */,
+				F043EAFD24839CB10088BB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food with coreml and coredata";
+			productName = "Food with coreml and coredata";
+			productReference = F043EAFF24839CB10088BB41 /* Food with coreml and coredata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F043EB1724839CB20088BB41 /* Food with coreml and coredataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F043EB2F24839CB30088BB41 /* Build configuration list for PBXNativeTarget "Food with coreml and coredataTests" */;
+			buildPhases = (
+				F043EB1424839CB20088BB41 /* Sources */,
+				F043EB1524839CB20088BB41 /* Frameworks */,
+				F043EB1624839CB20088BB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F043EB1A24839CB20088BB41 /* PBXTargetDependency */,
+			);
+			name = "Food with coreml and coredataTests";
+			productName = "Food with coreml and coredataTests";
+			productReference = F043EB1824839CB20088BB41 /* Food with coreml and coredataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F043EB2224839CB30088BB41 /* Food with coreml and coredataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F043EB3224839CB30088BB41 /* Build configuration list for PBXNativeTarget "Food with coreml and coredataUITests" */;
+			buildPhases = (
+				F043EB1F24839CB30088BB41 /* Sources */,
+				F043EB2024839CB30088BB41 /* Frameworks */,
+				F043EB2124839CB30088BB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F043EB2524839CB30088BB41 /* PBXTargetDependency */,
+			);
+			name = "Food with coreml and coredataUITests";
+			productName = "Food with coreml and coredataUITests";
+			productReference = F043EB2324839CB30088BB41 /* Food with coreml and coredataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F043EAF724839CB10088BB41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sufiandy Elmy";
+				TargetAttributes = {
+					F043EAFE24839CB10088BB41 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F043EB1724839CB20088BB41 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F043EAFE24839CB10088BB41;
+					};
+					F043EB2224839CB30088BB41 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F043EAFE24839CB10088BB41;
+					};
+				};
+			};
+			buildConfigurationList = F043EAFA24839CB10088BB41 /* Build configuration list for PBXProject "Food with coreml and coredata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F043EAF624839CB10088BB41;
+			productRefGroup = F043EB0024839CB10088BB41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F043EAFE24839CB10088BB41 /* Food with coreml and coredata */,
+				F043EB1724839CB20088BB41 /* Food with coreml and coredataTests */,
+				F043EB2224839CB30088BB41 /* Food with coreml and coredataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F043EAFD24839CB10088BB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043EB1224839CB20088BB41 /* LaunchScreen.storyboard in Resources */,
+				F043EB0F24839CB20088BB41 /* Assets.xcassets in Resources */,
+				F043EB0A24839CB10088BB41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EB1624839CB20088BB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EB2124839CB30088BB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F043EAFB24839CB10088BB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043EB0724839CB10088BB41 /* ViewController.swift in Sources */,
+				F043EB0324839CB10088BB41 /* AppDelegate.swift in Sources */,
+				F043EB0D24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld in Sources */,
+				F043EB0524839CB10088BB41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EB1424839CB20088BB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043EB1D24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F043EB1F24839CB30088BB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F043EB2824839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F043EB1A24839CB20088BB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F043EAFE24839CB10088BB41 /* Food with coreml and coredata */;
+			targetProxy = F043EB1924839CB20088BB41 /* PBXContainerItemProxy */;
+		};
+		F043EB2524839CB30088BB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F043EAFE24839CB10088BB41 /* Food with coreml and coredata */;
+			targetProxy = F043EB2424839CB30088BB41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F043EB0824839CB10088BB41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F043EB0924839CB10088BB41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F043EB1124839CB20088BB41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F043EB2A24839CB30088BB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F043EB2B24839CB30088BB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F043EB2D24839CB30088BB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T6A37YY89;
+				INFOPLIST_FILE = "Food with coreml and coredata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.infinitelearning.id.Food-with-coreml-and-coredata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F043EB2E24839CB30088BB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T6A37YY89;
+				INFOPLIST_FILE = "Food with coreml and coredata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.infinitelearning.id.Food-with-coreml-and-coredata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F043EB3024839CB30088BB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T6A37YY89;
+				INFOPLIST_FILE = "Food with coreml and coredataTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.infinitelearning.id.Food-with-coreml-and-coredataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food with coreml and coredata.app/Food with coreml and coredata";
+			};
+			name = Debug;
+		};
+		F043EB3124839CB30088BB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T6A37YY89;
+				INFOPLIST_FILE = "Food with coreml and coredataTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.infinitelearning.id.Food-with-coreml-and-coredataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food with coreml and coredata.app/Food with coreml and coredata";
+			};
+			name = Release;
+		};
+		F043EB3324839CB30088BB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T6A37YY89;
+				INFOPLIST_FILE = "Food with coreml and coredataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.infinitelearning.id.Food-with-coreml-and-coredataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food with coreml and coredata";
+			};
+			name = Debug;
+		};
+		F043EB3424839CB30088BB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T6A37YY89;
+				INFOPLIST_FILE = "Food with coreml and coredataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.infinitelearning.id.Food-with-coreml-and-coredataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Food with coreml and coredata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F043EAFA24839CB10088BB41 /* Build configuration list for PBXProject "Food with coreml and coredata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EB2A24839CB30088BB41 /* Debug */,
+				F043EB2B24839CB30088BB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F043EB2C24839CB30088BB41 /* Build configuration list for PBXNativeTarget "Food with coreml and coredata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EB2D24839CB30088BB41 /* Debug */,
+				F043EB2E24839CB30088BB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F043EB2F24839CB30088BB41 /* Build configuration list for PBXNativeTarget "Food with coreml and coredataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EB3024839CB30088BB41 /* Debug */,
+				F043EB3124839CB30088BB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F043EB3224839CB30088BB41 /* Build configuration list for PBXNativeTarget "Food with coreml and coredataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F043EB3324839CB30088BB41 /* Debug */,
+				F043EB3424839CB30088BB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F043EB0B24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F043EB0C24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodel */,
+			);
+			currentVersion = F043EB0C24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodel */;
+			path = Food_with_coreml_and_coredata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F043EAF724839CB10088BB41 /* Project object */;
+}
