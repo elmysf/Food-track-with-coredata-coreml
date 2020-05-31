@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		F043EB0324839CB10088BB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0224839CB10088BB41 /* AppDelegate.swift */; };
 		F043EB0524839CB10088BB41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0424839CB10088BB41 /* SceneDelegate.swift */; };
-		F043EB0724839CB10088BB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0624839CB10088BB41 /* ViewController.swift */; };
-		F043EB0A24839CB10088BB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB0824839CB10088BB41 /* Main.storyboard */; };
 		F043EB0D24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F043EB0B24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld */; };
-		F043EB0F24839CB20088BB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F043EB0E24839CB20088BB41 /* Assets.xcassets */; };
 		F043EB1224839CB20088BB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */; };
 		F043EB1D24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB1C24839CB20088BB41 /* Food_with_coreml_and_coredataTests.swift */; };
 		F043EB2824839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB2724839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift */; };
+		F043EB3724839DD90088BB41 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3524839DD90088BB41 /* PreviewViewController.swift */; };
+		F043EB3824839DD90088BB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3624839DD90088BB41 /* ViewController.swift */; };
+		F043EB3B24839DF60088BB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB3924839DF60088BB41 /* Main.storyboard */; };
+		F043EB3C24839DF60088BB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F043EB3A24839DF60088BB41 /* Assets.xcassets */; };
+		F043EB3F24839E0C0088BB41 /* ListDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3D24839E0C0088BB41 /* ListDataViewController.swift */; };
+		F043EB4024839E0C0088BB41 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3E24839E0C0088BB41 /* CoreDataManager.swift */; };
+		F043EB4224839E600088BB41 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F043EB4124839E600088BB41 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +43,7 @@
 		F043EAFF24839CB10088BB41 /* Food with coreml and coredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food with coreml and coredata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F043EB0224839CB10088BB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F043EB0424839CB10088BB41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F043EB0624839CB10088BB41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F043EB0924839CB10088BB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F043EB0C24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_with_coreml_and_coredata.xcdatamodel; sourceTree = "<group>"; };
-		F043EB0E24839CB20088BB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F043EB1124839CB20088BB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F043EB1324839CB20088BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F043EB1824839CB20088BB41 /* Food with coreml and coredataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food with coreml and coredataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,13 @@
 		F043EB2324839CB30088BB41 /* Food with coreml and coredataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food with coreml and coredataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F043EB2724839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_with_coreml_and_coredataUITests.swift; sourceTree = "<group>"; };
 		F043EB2924839CB30088BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F043EB3524839DD90088BB41 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		F043EB3624839DD90088BB41 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F043EB3924839DF60088BB41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F043EB3A24839DF60088BB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F043EB3D24839E0C0088BB41 /* ListDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDataViewController.swift; sourceTree = "<group>"; };
+		F043EB3E24839E0C0088BB41 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F043EB4124839E600088BB41 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +111,16 @@
 			children = (
 				F043EB0224839CB10088BB41 /* AppDelegate.swift */,
 				F043EB0424839CB10088BB41 /* SceneDelegate.swift */,
-				F043EB0624839CB10088BB41 /* ViewController.swift */,
-				F043EB0824839CB10088BB41 /* Main.storyboard */,
-				F043EB0E24839CB20088BB41 /* Assets.xcassets */,
+				F043EB3524839DD90088BB41 /* PreviewViewController.swift */,
+				F043EB3624839DD90088BB41 /* ViewController.swift */,
+				F043EB4124839E600088BB41 /* Inceptionv3.mlmodel */,
+				F043EB3A24839DF60088BB41 /* Assets.xcassets */,
+				F043EB3924839DF60088BB41 /* Main.storyboard */,
 				F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */,
 				F043EB1324839CB20088BB41 /* Info.plist */,
 				F043EB0B24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld */,
+				F043EB3E24839E0C0088BB41 /* CoreDataManager.swift */,
+				F043EB3D24839E0C0088BB41 /* ListDataViewController.swift */,
 			);
 			path = "Food with coreml and coredata";
 			sourceTree = "<group>";
@@ -236,8 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F043EB1224839CB20088BB41 /* LaunchScreen.storyboard in Resources */,
-				F043EB0F24839CB20088BB41 /* Assets.xcassets in Resources */,
-				F043EB0A24839CB10088BB41 /* Main.storyboard in Resources */,
+				F043EB3C24839DF60088BB41 /* Assets.xcassets in Resources */,
+				F043EB3B24839DF60088BB41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F043EB0724839CB10088BB41 /* ViewController.swift in Sources */,
+				F043EB3F24839E0C0088BB41 /* ListDataViewController.swift in Sources */,
+				F043EB3824839DD90088BB41 /* ViewController.swift in Sources */,
 				F043EB0324839CB10088BB41 /* AppDelegate.swift in Sources */,
 				F043EB0D24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld in Sources */,
 				F043EB0524839CB10088BB41 /* SceneDelegate.swift in Sources */,
+				F043EB4224839E600088BB41 /* Inceptionv3.mlmodel in Sources */,
+				F043EB4024839E0C0088BB41 /* CoreDataManager.swift in Sources */,
+				F043EB3724839DD90088BB41 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F043EB0824839CB10088BB41 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F043EB0924839CB10088BB41 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
