@@ -97,5 +97,14 @@ struct CoreDataManager {
             print("Failed to delete: \(saveError)")
         }
     }
-    
-}
+        func saveContext() {
+            if persistentContainer.viewContext.hasChanges {
+                do {
+                    try persistentContainer.viewContext.save()
+                } catch {
+                    print("An error occurred while saving: \(error)")
+                }
+            }
+        }
+        
+    }

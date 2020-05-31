@@ -15,11 +15,11 @@
 		F043EB2824839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB2724839CB30088BB41 /* Food_with_coreml_and_coredataUITests.swift */; };
 		F043EB3724839DD90088BB41 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3524839DD90088BB41 /* PreviewViewController.swift */; };
 		F043EB3824839DD90088BB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3624839DD90088BB41 /* ViewController.swift */; };
-		F043EB3B24839DF60088BB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB3924839DF60088BB41 /* Main.storyboard */; };
 		F043EB3C24839DF60088BB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F043EB3A24839DF60088BB41 /* Assets.xcassets */; };
 		F043EB3F24839E0C0088BB41 /* ListDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3D24839E0C0088BB41 /* ListDataViewController.swift */; };
 		F043EB4024839E0C0088BB41 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043EB3E24839E0C0088BB41 /* CoreDataManager.swift */; };
 		F043EB4224839E600088BB41 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F043EB4124839E600088BB41 /* Inceptionv3.mlmodel */; };
+		F043EB442483DAB10088BB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F043EB432483DAB10088BB41 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,11 @@
 		F043EB2924839CB30088BB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F043EB3524839DD90088BB41 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		F043EB3624839DD90088BB41 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F043EB3924839DF60088BB41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F043EB3A24839DF60088BB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F043EB3D24839E0C0088BB41 /* ListDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDataViewController.swift; sourceTree = "<group>"; };
 		F043EB3E24839E0C0088BB41 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		F043EB4124839E600088BB41 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		F043EB432483DAB10088BB41 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 				F043EB3624839DD90088BB41 /* ViewController.swift */,
 				F043EB4124839E600088BB41 /* Inceptionv3.mlmodel */,
 				F043EB3A24839DF60088BB41 /* Assets.xcassets */,
-				F043EB3924839DF60088BB41 /* Main.storyboard */,
+				F043EB432483DAB10088BB41 /* Main.storyboard */,
 				F043EB1024839CB20088BB41 /* LaunchScreen.storyboard */,
 				F043EB1324839CB20088BB41 /* Info.plist */,
 				F043EB0B24839CB10088BB41 /* Food_with_coreml_and_coredata.xcdatamodeld */,
@@ -247,9 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F043EB442483DAB10088BB41 /* Main.storyboard in Resources */,
 				F043EB1224839CB20088BB41 /* LaunchScreen.storyboard in Resources */,
 				F043EB3C24839DF60088BB41 /* Assets.xcassets in Resources */,
-				F043EB3B24839DF60088BB41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
