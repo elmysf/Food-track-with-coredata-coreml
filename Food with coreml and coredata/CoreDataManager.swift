@@ -1,6 +1,6 @@
 //
 //  CoreDataManager.swift
-//  CustomCamera
+//  Food with coreml and coredata
 //
 //  Created by Ihwan ID on 30/05/20.
 //  Copyright © 2020 Sufiandy Elmy. All rights reserved.
